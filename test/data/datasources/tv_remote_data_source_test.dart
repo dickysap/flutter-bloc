@@ -1,8 +1,8 @@
 import 'dart:convert';
-import 'package:ditonton/common/exception.dart';
-import 'package:ditonton/data/datasources/tv_remote_data_source.dart';
-import 'package:ditonton/data/models/tv_detail_model.dart';
-import 'package:ditonton/data/models/tv_response.dart';
+import '../../../core/lib/common/exception.dart';
+import '../../../core/lib/data/datasources/tv_remote_data_source.dart';
+import '../../../core/lib/data/models/tv_detail_model.dart';
+import '../../../core/lib/data/models/tv_response.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/mockito.dart';
